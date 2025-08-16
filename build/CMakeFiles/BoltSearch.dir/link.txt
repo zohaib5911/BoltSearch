@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/BoltSearch.dir/src/main.cpp.o CMakeFiles/BoltSearch.dir/src/search.cpp.o -o BoltSearch 

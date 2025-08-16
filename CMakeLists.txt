@@ -8,7 +8,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(include)
 
 # Add source files
-add_executable(BoltSearch src/main.cpp)
+add_executable(BoltSearch 
+    src/main.cpp 
+    src/search.cpp
+)
 
 # Add nlohmann/json (header-only library)
 include(FetchContent)
