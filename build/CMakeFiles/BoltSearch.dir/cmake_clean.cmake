@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "BoltSearch"
   "BoltSearch.pdb"
+  "CMakeFiles/BoltSearch.dir/src/Record.cpp.o"
+  "CMakeFiles/BoltSearch.dir/src/Record.cpp.o.d"
   "CMakeFiles/BoltSearch.dir/src/main.cpp.o"
   "CMakeFiles/BoltSearch.dir/src/main.cpp.o.d"
   "CMakeFiles/BoltSearch.dir/src/search.cpp.o"

@@ -129,6 +129,30 @@ BoltSearch/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoltSearch.dir/build.make CMakeFiles/BoltSearch.dir/build
 .PHONY : BoltSearch/fast
 
+src/Record.o: src/Record.cpp.o
+.PHONY : src/Record.o
+
+# target to build an object file
+src/Record.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoltSearch.dir/build.make CMakeFiles/BoltSearch.dir/src/Record.cpp.o
+.PHONY : src/Record.cpp.o
+
+src/Record.i: src/Record.cpp.i
+.PHONY : src/Record.i
+
+# target to preprocess a source file
+src/Record.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoltSearch.dir/build.make CMakeFiles/BoltSearch.dir/src/Record.cpp.i
+.PHONY : src/Record.cpp.i
+
+src/Record.s: src/Record.cpp.s
+.PHONY : src/Record.s
+
+# target to generate assembly for a file
+src/Record.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoltSearch.dir/build.make CMakeFiles/BoltSearch.dir/src/Record.cpp.s
+.PHONY : src/Record.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BoltSearch"
+	@echo "... src/Record.o"
+	@echo "... src/Record.i"
+	@echo "... src/Record.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
