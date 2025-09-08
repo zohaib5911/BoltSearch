@@ -15,7 +15,7 @@ class Record {
     string address;
 public:
     Record();
-    Record(Record& other);
+    Record(const Record& other);
     Record& operator=(const Record& other);
     Record(string id,string name,string email,string phone,string address);
     ~Record();

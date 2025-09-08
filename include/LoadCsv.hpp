@@ -14,7 +14,10 @@ vector<Record> load(const string& filename) {
     vector<Record> records;
     ifstream file(filename);
     string line;
-
+    if (!file.is_open()) {
+        cerr << "Error opening file: " << filename << endl;
+        return records; 
+    }
     while (getline(file, line)) {
         stringstream ss(line);
         string id, name, email, phone, address;

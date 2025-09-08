@@ -1,7 +1,10 @@
 #include "Record.hpp"
 
 Record::Record() : id(""), name(""), email(""), phone(""), address("") {}
-Record::Record(Record& other) 
+Record::Record(string id, string name, string email, string phone, string address) 
+    : id(std::move(id)), name(std::move(name)), email(std::move(email)), 
+      phone(std::move(phone)), address(std::move(address)) {}
+Record::Record(const Record& other) 
     : id(other.id), name(other.name), email(other.email),
      phone(other.phone), address(other.address) {}
 

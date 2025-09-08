@@ -11,6 +11,7 @@ include_directories(include)
 add_executable(BoltSearch 
     src/main.cpp 
     src/search.cpp
+    src/Record.cpp
 )
 
 # Add nlohmann/json (header-only library)
